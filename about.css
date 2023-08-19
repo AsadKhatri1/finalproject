@@ -1,0 +1,42 @@
+.about-bg{
+    background-image: url(images/about-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: white;
+}
+
+
+.us{
+    padding: 100px 0px;
+    height: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+ flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.content{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 20px;
+}
+.line{
+    border: 2px solid #f9c13c;
+    border-radius: 5px;
+    opacity: 0.8;
+    /* color: #f9c13c; */
+}
